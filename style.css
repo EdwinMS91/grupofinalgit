@@ -1,3 +1,4 @@
+
 .contenedor-fechas {
   max-width: 800px;
   margin: 40px auto;
@@ -56,4 +57,54 @@
 .tarjeta:hover {
   transform: scale(1.03);
   background-color: #ffd5c2;
+}
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffc0cb; 
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #a2006d;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a2006d;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+.icono img {
+    height: 50px;
 }
